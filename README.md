@@ -33,7 +33,7 @@ You don't need anything else since we only use executables and built-in modules.
 
 ### 📁 Folders' description
 
-**Report_results** > contains the processed tables containing extra-columns that we presented in our report. Not needed at any point for the code, the generated results appear in the project's root folder and not here. The used instances are from : http://argumentationcompetition.org/ year 2021, folder 2019 (initially from 2019).  
+**Report_results** > contains the processed tables containing extra-columns that we presented in our report. Not needed at any point for the code, the generated results appear in the project's root folder and not here. The instances that we used are from : http://argumentationcompetition.org/ year 2021, folder 2019 (initially from 2019).  
 
 **executables** > contains all our executables : the d4 compiler, the d-dnnf reasoner, and a folder containing all mu-toksia's code (do not get rid of it, needed for glucose or further modifications) and the executable's build.  
 
