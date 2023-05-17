@@ -3,7 +3,7 @@
 This project has been conducted for our distributed artificial intelligence master's first year's tutored project. We constructed a pipeline with the goal of confronting a d-dnnf approach by compilation and a direct cnf approach in the context of arguments acceptability in argumentation. This pipeline produces a csv comparing the performances of both approaches. Our complete workflow and results' analysis are available in the project's report (Not on github).   
 
 ⚠️ This project is for Linux Only because the executables used by the pipeline are Linux-compatible executables  
-🛑 If you try to run on windows, everything will work but the executables won't be launched, so you'll only have 1 empty transformation and query time and nothing else.  
+🛑 If you try to run on windows (do not), everything will work but the executables won't be launched, so you'll only have 1 empty transformation and query time and nothing else.  
 
 ⚠️ Since this project uses a lot of different subprocesses, it can be hard to manually interrupt. Ctrl-c will only end the current sub-process and will make the results biased. You can either spam it (can still be tricky sometimes) or simply close the terminal, which is the optimal solution.  
 
@@ -14,7 +14,7 @@ This project has been conducted for our distributed artificial intelligence mast
 cd in the project's root folder first, then :  
 **python3 benchmark_st.py -task graphs nb_queries**    
 
-task being dc or ds  
+task being dc for credulous acceptability or ds for skeptical acceptability.  
 graphs being the name of the folder where the graphs to test are stored (put your instances in it, only .tgf will be considered)  
 nb_queries being the number of queries per graph (randomly sampled arguments)  
 
@@ -33,7 +33,7 @@ You don't need anything else since we only use executables and built-in modules.
 
 ### 📁 Folders' description
 
-**Report_results** > contains the processed tables containing extra-columns that we presented in our report. Not needed at any point for the code, the generated results appear in the project's root folder and not here.  
+**Report_results** > contains the processed tables containing extra-columns that we presented in our report. Not needed at any point for the code, the generated results appear in the project's root folder and not here. The used instances are from : http://argumentationcompetition.org/ year 2021, folder 2019 (initially from 2019).  
 
 **executables** > contains all our executables : the d4 compiler, the d-dnnf reasoner, and a folder containing all mu-toksia's code (do not get rid of it, needed for glucose or further modifications) and the executable's build.  
 
