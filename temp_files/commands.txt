@@ -1,0 +1,2 @@
+load ./temp_files/DDNNF_graph.nnf
+model 251
