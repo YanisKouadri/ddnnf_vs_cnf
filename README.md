@@ -12,14 +12,14 @@ This project has been conducted for our distributed artificial intelligence mast
 ## ⚙️ Command :
 
 cd in the project's root folder first, then :  
-**python3 benchmark_st.py -task graphs nb_queries**    
+**`python3 benchmark_st.py -task graphs nb_queries`**    
 
 task being dc for credulous acceptability or ds for skeptical acceptability.  
 graphs being the name of the folder where the graphs to test are stored (put your instances in it, only .tgf will be considered)  
 nb_queries being the number of queries per graph (randomly sampled arguments)  
 
 example :   
-python3 benchmark_st.py -dc graphs 10  
+`python3 benchmark_st.py -dc graphs 10`
 
 ---
 
